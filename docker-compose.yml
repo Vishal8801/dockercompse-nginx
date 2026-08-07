@@ -8,4 +8,4 @@ services:
         - ./index.html:/usr/share/nginx/html/index.html
       ports:
         - "85:80"
-      restart: unless-stopped
+      restart: always
