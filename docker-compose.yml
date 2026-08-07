@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
     nginx:
-      image: nginx:latest
+      image: ngieenx:latest
       container_name: nginx-container
       ports:
         - "85:80"
