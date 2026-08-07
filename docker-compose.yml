@@ -4,6 +4,8 @@ services:
     nginx:
       image: nginx:latest
       container_name: nginx-container
+      volumes:
+        - ./index.html:/usr/share/nginx/html/index.html
       ports:
         - "85:80"
       restart: unless-stopped
